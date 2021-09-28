@@ -1,0 +1,251 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 81000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on webdriveruniversity.com page",
+            "match": {
+              "location": "com.stepDefinitions.Login.user_is_on_webdriveruniversity_com_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3378000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on login portal to sign in",
+            "match": {
+              "location": "com.stepDefinitions.Login.user_click_on_login_portal_to_sign_in()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-28T17:42:53.331Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11342000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User login to webdriver university with valid data",
+        "description": "",
+        "id": "user-logins-to-webdriveruniversity.com-with-diff-credentials;user-login-to-webdriver-university-with-valid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1052000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinitions.Hooks.closeUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1971000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters Username \"sasasa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sasasa\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.stepDefinitions.Login.user_enters_Username(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 272000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters Password \"dsds\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dsds\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.stepDefinitions.Login.user_enters_Password(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user submits the details",
+            "match": {
+              "location": "com.stepDefinitions.Login.user_submits_the_details()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on webdriveruniversity.com page",
+            "match": {
+              "location": "com.stepDefinitions.Login.user_is_on_webdriveruniversity_com_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2103000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on login portal to sign in",
+            "match": {
+              "location": "com.stepDefinitions.Login.user_click_on_login_portal_to_sign_in()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-28T17:43:11.663Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6307000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User login to webdriver university with valid data",
+        "description": "",
+        "id": "user-logins-to-webdriveruniversity.com-with-diff-credentials;user-login-to-webdriver-university-with-valid-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 675000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinitions.Hooks.closeUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 322000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters Username \"ddsdsd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ddsdsd\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.stepDefinitions.Login.user_enters_Username(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 309000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters Password \"uuttyt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uuttyt\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.stepDefinitions.Login.user_enters_Password(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user submits the details",
+            "match": {
+              "location": "com.stepDefinitions.Login.user_submits_the_details()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "User logins to webdriveruniversity.com with diff credentials",
+    "description": "",
+    "id": "user-logins-to-webdriveruniversity.com-with-diff-credentials",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/webdriveruniversity_features/Login.feature",
+    "tags": []
+  }
+]
