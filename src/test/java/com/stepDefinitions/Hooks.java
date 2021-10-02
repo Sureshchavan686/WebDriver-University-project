@@ -5,8 +5,8 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 
-import com.generics.BaseLibrary;
-import com.generics.DriverFactory;
+import com.webdriver.generics.BaseLibrary;
+import com.webdriver.generics.DriverFactory;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;

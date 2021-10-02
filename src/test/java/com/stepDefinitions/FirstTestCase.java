@@ -2,8 +2,8 @@ package com.stepDefinitions;
 
 import java.io.IOException;
 
-import com.generics.DriverFactory;
 import com.pages.AmazonExamples;
+import com.webdriver.generics.DriverFactory;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

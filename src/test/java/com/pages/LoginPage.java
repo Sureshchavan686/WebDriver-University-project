@@ -6,7 +6,7 @@ import java.util.Set;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import com.generics.BaseLibrary;
+import com.webdriver.generics.BaseLibrary;
 
 public class LoginPage extends BaseLibrary {
 

@@ -1,7 +1,7 @@
 package com.stepDefinitions;
 
-import com.generics.DriverFactory;
 import com.pages.LoginPage;
+import com.webdriver.generics.DriverFactory;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

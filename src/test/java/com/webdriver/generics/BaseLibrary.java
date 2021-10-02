@@ -1,4 +1,4 @@
-package com.generics;
+package com.webdriver.generics;
 
 import java.io.File;
 import java.io.FileNotFoundException;

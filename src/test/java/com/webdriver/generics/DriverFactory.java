@@ -1,4 +1,4 @@
-package com.generics;
+package com.webdriver.generics;
 
 import java.io.FileReader;
 import java.util.Properties;

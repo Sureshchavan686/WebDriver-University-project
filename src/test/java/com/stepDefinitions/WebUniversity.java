@@ -5,8 +5,8 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 
-import com.generics.DriverFactory;
 import com.pages.WebUniversityPages;
+import com.webdriver.generics.DriverFactory;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;

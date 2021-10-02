@@ -7,8 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.generics.BaseLibrary;
-import com.generics.DriverFactory;
+import com.webdriver.generics.BaseLibrary;
+import com.webdriver.generics.DriverFactory;
 
 public class First extends BaseLibrary {
 	
