@@ -1,14 +1,24 @@
 package com.pages;
 
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import com.webdriver.generics.BaseLibrary;
 
 public class LoginPage extends BaseLibrary {
+	
+	
+	public LoginPage()
+	{
+		super();
+		PageFactory.initElements(driver, this);
+	}
 
 	@FindBy(xpath = "//h1[contains(text(),'LOGIN PORTAL')]")
 	public static WebElement btn_LoginPortal;
@@ -37,6 +47,8 @@ public class LoginPage extends BaseLibrary {
 
 	public void clickOnLogin() {
 		click(btn_LoginPortal);
+		
+		
 	}
 
 	public void enterUserName(String username) {

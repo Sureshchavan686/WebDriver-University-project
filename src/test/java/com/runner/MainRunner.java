@@ -9,7 +9,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @RunWith(Cucumber.class)
 @CucumberOptions
 (stepNotifications = true,
-features= "src/test/resources/features/webuniversitylogin.feature",
+features= "src/test/resources/webdriveruniversity_features/Login.feature",
 glue= {"com.stepDefinitions"},
 tags= {},
 plugin= {"pretty",

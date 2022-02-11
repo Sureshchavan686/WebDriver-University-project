@@ -15,7 +15,8 @@ import io.cucumber.junit.CucumberOptions;
 		tags= {"@Smoke"},
 		plugin= {"pretty",
 				"html:target/cucumber","json:target/cucumber.json",
-		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:test-output/report.html"}
+		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:test-output/report.html",
+		"rerun:target/rerun.txt"}
 		)
 public class WebDriverUniversityRunner extends AbstractTestNGCucumberTests{
 

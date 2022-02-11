@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 81000000,
+              "duration": 188000000,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 3378000000,
+              "duration": 2146000000,
               "status": "passed"
             },
             "line": 5,
@@ -36,11 +36,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-28T17:42:53.331Z",
+        "start_timestamp": "2022-02-11T09:54:16.510Z",
         "before": [
           {
             "result": {
-              "duration": 11342000000,
+              "duration": 3801000000,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "after": [
           {
             "result": {
-              "duration": 1052000000,
+              "duration": 697000000,
               "status": "passed"
             },
             "match": {
@@ -68,7 +68,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1971000000,
+              "duration": 612000000,
               "status": "passed"
             },
             "line": 9,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 272000000,
+              "duration": 305000000,
               "status": "passed"
             },
             "line": 10,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 110000000,
+              "duration": 102000000,
               "status": "passed"
             },
             "line": 11,
@@ -130,7 +130,7 @@
         "steps": [
           {
             "result": {
-              "duration": 93000000,
+              "duration": 185000000,
               "status": "passed"
             },
             "line": 4,
@@ -142,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 2103000000,
+              "duration": 2109000000,
               "status": "passed"
             },
             "line": 5,
@@ -155,11 +155,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-28T17:43:11.663Z",
+        "start_timestamp": "2022-02-11T09:54:24.526Z",
         "before": [
           {
             "result": {
-              "duration": 6307000000,
+              "duration": 3210000000,
               "status": "passed"
             },
             "match": {
@@ -174,7 +174,7 @@
         "after": [
           {
             "result": {
-              "duration": 675000000,
+              "duration": 681000000,
               "status": "passed"
             },
             "match": {
@@ -187,7 +187,7 @@
         "steps": [
           {
             "result": {
-              "duration": 322000000,
+              "duration": 467000000,
               "status": "passed"
             },
             "line": 9,
@@ -205,7 +205,7 @@
           },
           {
             "result": {
-              "duration": 309000000,
+              "duration": 261000000,
               "status": "passed"
             },
             "line": 10,
@@ -223,7 +223,7 @@
           },
           {
             "result": {
-              "duration": 93000000,
+              "duration": 101000000,
               "status": "passed"
             },
             "line": 11,
@@ -237,6 +237,234 @@
         "tags": [
           {
             "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on webdriveruniversity.com page",
+            "match": {
+              "location": "com.stepDefinitions.Login.user_is_on_webdriveruniversity_com_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2111000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on login portal to sign in",
+            "match": {
+              "location": "com.stepDefinitions.Login.user_click_on_login_portal_to_sign_in()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-11T09:54:31.551Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3116000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "User login to webdriver university with invalid data",
+        "description": "",
+        "id": "user-logins-to-webdriveruniversity.com-with-diff-credentials;user-login-to-webdriver-university-with-invalid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 682000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinitions.Hooks.closeUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 483000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters Username \"121212\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"121212\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.stepDefinitions.Login.user_enters_Username(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 267000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters Password \"dfsfd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dfsfd\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.stepDefinitions.Login.user_enters_Password(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user submits the details",
+            "match": {
+              "location": "com.stepDefinitions.Login.user_submits_the_details()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on webdriveruniversity.com page",
+            "match": {
+              "location": "com.stepDefinitions.Login.user_is_on_webdriveruniversity_com_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2102000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on login portal to sign in",
+            "match": {
+              "location": "com.stepDefinitions.Login.user_click_on_login_portal_to_sign_in()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-11T09:54:38.442Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3237000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "User login to webdriver university with invalid data",
+        "description": "",
+        "id": "user-logins-to-webdriveruniversity.com-with-diff-credentials;user-login-to-webdriver-university-with-invalid-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 692000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinitions.Hooks.closeUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 488000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters Username \"888888\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"888888\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.stepDefinitions.Login.user_enters_Username(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 286000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters Password \"ujklo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ujklo\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.stepDefinitions.Login.user_enters_Password(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user submits the details",
+            "match": {
+              "location": "com.stepDefinitions.Login.user_submits_the_details()"
+            },
+            "keyword": "And "
           }
         ]
       }

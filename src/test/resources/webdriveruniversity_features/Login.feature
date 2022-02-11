@@ -15,7 +15,7 @@ Examples:
 |sasasa|	dsds|
 |ddsdsd|	uuttyt	|
 
-@Sanity
+
 Scenario Outline: User login to webdriver university with invalid data
 Then user enters Username "<Username>"
 Then user enters Password "<Password>"

@@ -67,7 +67,7 @@ public class DriverFactory {
 		{
 			amz = PageFactory.initElements(driver, AmazonExamples.class);
 			wb = PageFactory.initElements(driver, WebUniversityPages.class);
-			lp = PageFactory.initElements(driver, LoginPage.class);
+			//lp = PageFactory.initElements(driver, LoginPage.class);
 			
 		}
 

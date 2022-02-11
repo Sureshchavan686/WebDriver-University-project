@@ -37,7 +37,7 @@ public class BaseLibrary extends DriverFactory {
 
 		try {
 			this.waitForElement(element);
-			element.clear();
+			//element.clear();
 			element.sendKeys(textToSend);
 		} catch (Exception e) {
 			Assert.fail();

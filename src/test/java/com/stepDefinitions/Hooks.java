@@ -17,8 +17,8 @@ public class Hooks extends DriverFactory{
 	
 	BaseLibrary bl = new BaseLibrary();
 	 
-	@Before()
-	public void setup() throws IOException
+	@Before() 
+	public void setup() throws IOException 
 	{
 		driver = getDriver();
 		driver.get("http://www.webdriveruniversity.com/");
